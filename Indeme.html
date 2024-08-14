@@ -1,0 +1,94 @@
+<Html lang="pt-br">
+<!--A tag <html> é uma das tags fundamentais na estrutura de um documento HTML. Ela define o início e o fim de um documento HTML. É a raiz do documento e envolve todo o conteúdo da página da web, incluindo o cabeçalho e o corpo.-->
+
+
+<head>
+    <!--A tag <head> no HTML é como o "cérebro" da sua página. Ela fica escondida e contém informações importantes para o navegador e para a página funcionar bem.
+Dentro dela, você pode colocar:
+•	<title>: Define o nome da página que aparece na aba do navegador.
+•	<meta>: Dá informações extras, como o idioma da página.
+•	<link>: Conecta a página a arquivos externos, como estilos (CSS) que fazem sua página ficar bonita.
+•	<script>: Adiciona códigos que deixam a página interativa.
+    -->
+
+    <!--rel="stylesheet": Informa que o arquivo é um CSS.-->
+    <!--href="estilos.css": É o caminho para o arquivo CSS que contém os estilos-->
+    <!-- a barra (/) é usada principalmente para indicar o fechamento de uma tag, como no codigo abaixo-->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>CineFlix</title>
+
+
+
+</head>
+
+<body>
+
+    
+        <!--A tag <body> contem todo o espectro de elementos visíveis do documento HTML. Tudo aquilo que deve aparecer na tela do navegador deverá estar contido dentro de <body>. Em síntese, a tela "em branco" no navegador é o próprio <body>-->
+        <header>CineFlix</header>
+        
+        <section class="chamadas">
+        <div class="chamada-texto">
+            <h1> Guerra Infinita vs Vingadores Ultimato </h1>
+            <!--aqui coloquei a função <h1> para criar um título principal para nossa pagina-->
+            <p>#Vingadores</p>
+            <!--a função <p> foi ultilizada aqui para criar um paragrafo para nossa pagina-->
+        </div>
+
+
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/plbb2Rb1Mck?si=9-rMLxg5v2Cj0UO4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!--A tag <iframe> é um código em HTML que permite que um elemento seja exibido dentro de outro elemento -->
+            <!--OBS: com essa tag, nos permite incorporar documentos, vídeos e mídia interativa em uma página. Ao fazer isso, você pode exibir uma página secundária da web na sua página principal.-->
+        </div>
+        <!--A tag <div> é usada para criar uma "divisão" ou uma seção na sua página web-->
+
+    </section>
+<!--a tag section, ela é uma tag semântica que ajuda a organizar o conteúdo em blocos ou seções que têm um significado ou propósito específico.-->
+
+    <section class="categoria">
+        <h2>Filmes e Séries</h2>
+
+        <div class="categoria-videos">
+         <!--aqui eu criei uma classe para a minha DIV, chamada categoria-videos -->
+            <a href="https://www.youtube.com/watch?v=MEWytWyh6Ss">
+            <img src="https://i3.ytimg.com/vi/MEWytWyh6Ss/maxresdefault.jpg" >/
+            <!--a tag img  usada para exibir imagens em uma página web. Ja a tag <src> especifica o caminho ou link da imagem que você quer mostrar.-->
+
+          <!--a tag <a> é usada para criar links, permitindo que os usuários naveguem para outras páginas, sites ou até mesmo seções dentro da mesma página-->
+            <!--Juntamento com a tag <href> que especifica o destino do link.-->
+
+        </a>
+        <a href="https://www.youtube.com/watch?v=imqqUnGR0LU">
+            <img src="https://i3.ytimg.com/vi/imqqUnGR0LU/maxresdefault.jpg" >/
+         <!--a tag img  usada para exibir imagens em uma página web. Ja a tag <src> especifica o caminho ou link da imagem que você quer mostrar.-->
+                         
+          <!--a tag <a> é usada para criar links, permitindo que os usuários naveguem para outras páginas, sites ou até mesmo seções dentro da mesma página-->
+         <!--Juntamento com a tag <href> que especifica o destino do link.-->
+        </a>
+        <a href="https://www.youtube.com/watch?v=liGTR-V70ls">
+            <img src="https://i3.ytimg.com/vi/liGTR-V70ls/maxresdefault.jpg" >/
+        </a>
+        <a href="https://www.youtube.com/watch?v=bApNxIAuUBU">
+            <img src="https://i3.ytimg.com/vi/bApNxIAuUBU/maxresdefault.jpg" >/
+        </a>
+        <a href="https://www.youtube.com/watch?v=dGtn36Vf0uQ">
+            <img src="https://i3.ytimg.com/vi/dGtn36Vf0uQ/maxresdefault.jpg" >/
+        </a>
+        <a href="https://www.youtube.com/watch?v=E8gsF19TzI8">
+            <img src="https://i3.ytimg.com/vi/E8gsF19TzI8/maxresdefault.jpg" >/
+        </a>
+    </div>
+
+    </section>
+
+
+</body>
+
+</Html>

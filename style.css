@@ -1,0 +1,87 @@
+body{
+    color:white;
+    background : black;
+    font-family: "Chakra Petch", sans-serif;
+    /*usada para definir a aparência do texto em uma página web, especificando quais fontes devem ser usadas */
+
+   
+    margin: 0px;
+ /*A margin (ou margem em portugues) é uma forma de criar espaço ao redor dos elementos na sua página web. ou criar uma margen externa a borda*/
+}
+
+header{
+border-bottom: solid 2px red;
+/*A tag border-bottom, é usada para adicionar uma borda na parte inferior de um elemento */
+
+padding: 10px;
+/*cria um margem interna à borda */
+
+font-size: 32px;
+/* A propriedade font-size em CSS é usada para definir o tamanho do texto em um elemento.*/
+
+color: red;
+
+}
+
+p{
+color: red;
+/*Aqui usei a função p{ para definir a cor que quero usar no meu paragrafo */
+}
+
+.chamadas{
+    background: hsla(0, 0%, 6%, 0.573);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    /*aqui usei a função display para organizar meu layout de forma flexível, ao invés de em blocos */
+    justify-content: center;
+    /*essa tag serve para justificar nosso conteudo no centro*/
+}
+.chamada-texto{
+    margin-right: 5%;
+    /*aqui eu defini o tamanho da margen para 5%, independente do tamanho da nossa pagina */
+
+}
+h1{
+    font-size: 30px;
+    /*o tamanho do meu texto principal está em 30 px */ 
+}
+
+p{
+    font-size: 15px;
+    /*o tamanho do meu paragrafo esta em 15 px */
+}
+   
+
+.categoria-videos {
+    display: flex;
+    /*aqui usei a função display para organizar meu layout de forma flexível, ao invés de em blocos */
+    overflow-x: auto;
+    /*essa tag especifica se vai ser necessario adicional uma barra de rolagem */
+    gap: 10px;
+    /*serve para definir o espaço que entre as colunas */
+}
+.categoria{
+    padding-left: 10px;
+    /*aqui eu criei uma margen interior na esquerda de 10 px */
+    padding-right: 10px;
+    /*aqui eu criei uma margen interior na direita de 10 px */
+    margin-top: 50px;
+    /*aqui eu criei uma margen exterior na parte de cima de um elemento de 50 px */
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    /*tag usada para especifica a transparência de um elemento,*/
+    height: 170px;
+    /*tag usada para definir a ALTURA da nossa imagem (img) */
+}
+
+.categoria-videos img:hover{
+    /*aqui eu usei a tag <hover> para aplicar um estilo a um elemento quando meu cursor passar sobre ele */
+    opacity: 1.0;
+    border: 1px solid black;
+}
+.categoria h2{
+    color: red;
+}
